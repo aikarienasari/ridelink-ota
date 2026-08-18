@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "latest_version": "0.9.0",
+  "min_supported": "0.9.0",
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.0.bin",
+  "signature": "fd55fadf5a6ad6eca4ce140194073005d41a267ac254eb762ddd52d5c61acda77eea54fe3bf7cfbe886a129f55dc3f1380b19b38e9f9eb042e1d9a451ce74a05",
+  "size": 966880,
+  "sha256": "b5532c56eedf864843e8b652aa93dd9d268f0ca42627a00d83f8e1f1a92ccb30",
+  "released_at": "2026-08-18T09:50:58+00:00",
+  "notes": "Rilis pertama dengan OTA aktif + Adaptive Connect (cloud relay)."
+}
