@@ -1,0 +1,6 @@
+{
+  "latest_version": "0.9.1",
+  "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
+  "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
+  "notes": "Updater pertama: update app tanpa install manual + perbaikan cloud saat tersambung WiFi dongle."
+}
