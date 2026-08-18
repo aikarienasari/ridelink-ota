@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.0",
+  "latest_version": "0.9.1",
   "min_supported": "0.9.0",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.0.bin",
-  "signature": "fd55fadf5a6ad6eca4ce140194073005d41a267ac254eb762ddd52d5c61acda77eea54fe3bf7cfbe886a129f55dc3f1380b19b38e9f9eb042e1d9a451ce74a05",
-  "size": 966880,
-  "sha256": "b5532c56eedf864843e8b652aa93dd9d268f0ca42627a00d83f8e1f1a92ccb30",
-  "released_at": "2026-08-18T09:50:58+00:00",
-  "notes": "Rilis pertama dengan OTA aktif + Adaptive Connect (cloud relay)."
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.1.bin",
+  "signature": "66b5113bde125a7b5d0698a8bf9afdcb7e0b907797db2a9e8a23f7edc14e3fcac43d65e936a625c64fa88bf82a9871f8f57c8191cced2ea8e110d49bf6d3d102",
+  "size": 968464,
+  "sha256": "9b34af2bd96cc4d452a5248c4394c1667ed66d54c064f208e2e14fb688aa28bb",
+  "released_at": "2026-08-18T10:45:51+00:00",
+  "notes": "Dukungan internet sementara untuk OTA: kredensial hotspot dapat disetel via USB (SET staSsid/staPass)."
 }
