@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.1",
+  "latest_version": "0.9.2",
   "min_supported": "0.9.0",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.1.bin",
-  "signature": "66b5113bde125a7b5d0698a8bf9afdcb7e0b907797db2a9e8a23f7edc14e3fcac43d65e936a625c64fa88bf82a9871f8f57c8191cced2ea8e110d49bf6d3d102",
-  "size": 968464,
-  "sha256": "9b34af2bd96cc4d452a5248c4394c1667ed66d54c064f208e2e14fb688aa28bb",
-  "released_at": "2026-08-18T10:45:51+00:00",
-  "notes": "Dukungan internet sementara untuk OTA: kredensial hotspot dapat disetel via USB (SET staSsid/staPass)."
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.2.bin",
+  "signature": "acd1070bd359e4316208d63706aaf693aa7d218d80ad6cce1dec594a20f23b81ee990c963350ca1393f84659a2a1b7782caa874b3364a064107429b43bdf4806",
+  "size": 973568,
+  "sha256": "4d876742aa17fb02923e505f540867b8e63f9b686b6404577269a847e7d6abc9",
+  "released_at": "2026-08-18T11:08:04+00:00",
+  "notes": "Update via HP: app mengunduh firmware lalu mengirim ke dongle lewat WiFi — tanpa hotspot, tanpa kabel."
 }
