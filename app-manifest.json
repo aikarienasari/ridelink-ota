@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.3",
+  "latest_version": "0.9.4",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Perbaikan suara ganda: rider yang masih dalam jangkauan dongle tidak lagi mendengar gema dari jalur cloud."
+  "notes": "Peredam angin: filter high-pass 250 Hz (aktif default) + opsi DSP bawaan HP. Atur di Akun > Kualitas Audio."
 }
