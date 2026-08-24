@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.3",
+  "latest_version": "0.9.4",
   "min_supported": "0.9.0",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.3.bin",
-  "signature": "a7fe28ff551e6d40cdef80c2bbf8c7b1199bfcf90a5e3a387e3492dd7e5ee983aed440dcc9d774d8be27b40af713d21ffbce4fa6d10ab2c141a722b003e7a90f",
-  "size": 973568,
-  "sha256": "f0f40881c99ebf63541bbe9907cc790a11ab4f0c687412f5335aef902fe9b486",
-  "released_at": "2026-08-18T11:42:26+00:00",
-  "notes": "Rilis uji: sama seperti 0.9.2, untuk membuktikan update via HP bekerja."
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.4.bin",
+  "signature": "405f1b3352f60cd8e8f8077aaf2b1e54cbbbbbc8941faacd7798bcac365090582bd9141eab64c62e2dc438f4a597b335a9ea89af5dddf5c44750d789d9153e0a",
+  "size": 974048,
+  "sha256": "dee6589064288a336e95aaee06724b99235ceb0f4c9c95028533ade28f7ff626",
+  "released_at": "2026-08-24T03:23:27+00:00",
+  "notes": "Host-bridge: dukungan paket PX — audio rider jauh masuk mesh dengan identitas asli"
 }
