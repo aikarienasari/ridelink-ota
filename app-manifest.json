@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.4",
+  "latest_version": "0.9.5",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Peredam angin: filter high-pass 250 Hz (aktif default) + opsi DSP bawaan HP. Atur di Akun > Kualitas Audio."
+  "notes": "Peredam AI (RNNoise) — neural network bawaan app, aktif default. Paling efektif buang angin & bising mesin. Atur di Akun > Kualitas Audio. Ukuran app membesar ~14MB (model AI di dalam app)."
 }
