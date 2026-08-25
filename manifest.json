@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.4",
-  "min_supported": "0.9.0",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.4.bin",
-  "signature": "405f1b3352f60cd8e8f8077aaf2b1e54cbbbbbc8941faacd7798bcac365090582bd9141eab64c62e2dc438f4a597b335a9ea89af5dddf5c44750d789d9153e0a",
-  "size": 974048,
-  "sha256": "dee6589064288a336e95aaee06724b99235ceb0f4c9c95028533ade28f7ff626",
-  "released_at": "2026-08-24T03:23:27+00:00",
-  "notes": "Host-bridge: dukungan paket PX — audio rider jauh masuk mesh dengan identitas asli"
+  "latest_version": "0.9.5",
+  "min_supported": "0.9.5",
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.5.bin",
+  "signature": "c6e553da0d5ae3ea650383bf908c50efec0c39ab3689a7101d77738419eec8b6462ed829bd3e870abf548d172351848b03e4bf4324259e2575d7f545a4f47c03",
+  "size": 980368,
+  "sha256": "72258e1890e84455fd1bd5d66248570de951a0674ed6bc2faef9878e7a467189",
+  "released_at": "2026-08-25T02:56:20+00:00",
+  "notes": "Perbaikan verifikasi Ed25519 — OTA sebelumnya selalu gagal 'Ed25519 signature invalid'. WAJIB dipasang via kabel USB satu kali (update berikutnya baru bisa lewat app)"
 }
