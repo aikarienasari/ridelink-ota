@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.10",
+  "latest_version": "0.9.11",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Peredam suara baru: filter angin adaptif (makin kencang angin makin dalam disaring, plus pelindung hembusan ekstrem), AGC bicara, dan DSP bawaan HP sekarang aktif default. Matikan-nyalakan interkom setelah update."
+  "notes": "Penyetelan dari hasil tes jalan: suara bicara sekarang lebih keras (AGC naik sampai +14dB), pintu bising otomatis memotong noise sisa di antara kata-kata (khususnya HP dengan noise residual), dan penahan angin tidak lagi mengecilkan suara saat angin kencang terus-menerus. Update di KEDUA HP lalu matikan-nyalakan interkom."
 }
