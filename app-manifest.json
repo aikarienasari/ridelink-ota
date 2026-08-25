@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.9",
+  "latest_version": "0.9.10",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Perbaikan reconnect: app sekarang otomatis tersambung ulang saat dongle dinyalakan lagi, tanpa perlu keluar-masuk app. Update juga firmware dongle ke 0.9.5 lewat kabel USB (menu OTA di app akan kembali normal setelahnya)."
+  "notes": "Peredam suara baru: filter angin adaptif (makin kencang angin makin dalam disaring, plus pelindung hembusan ekstrem), AGC bicara, dan DSP bawaan HP sekarang aktif default. Matikan-nyalakan interkom setelah update."
 }
