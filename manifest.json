@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.5",
+  "latest_version": "0.9.6",
   "min_supported": "0.9.5",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.5.bin",
-  "signature": "c6e553da0d5ae3ea650383bf908c50efec0c39ab3689a7101d77738419eec8b6462ed829bd3e870abf548d172351848b03e4bf4324259e2575d7f545a4f47c03",
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.6.bin",
+  "signature": "2677085ccea37d5827fd6f60db8b40d26d061f087d69c7dfd331f8b28bb1215c9874742a7e65e7c9b39a00691af983c14f588d51fb0e1d0ec96f922ec2b0410d",
   "size": 980368,
-  "sha256": "72258e1890e84455fd1bd5d66248570de951a0674ed6bc2faef9878e7a467189",
-  "released_at": "2026-08-25T02:56:20+00:00",
-  "notes": "Perbaikan verifikasi Ed25519 — OTA sebelumnya selalu gagal 'Ed25519 signature invalid'. WAJIB dipasang via kabel USB satu kali (update berikutnya baru bisa lewat app)"
+  "sha256": "200c1e1e039c500d4e3939f5dd4b9e6f28fbab706b2a518792728f464b9d74a5",
+  "released_at": "2026-08-25T04:56:04+00:00",
+  "notes": "Rilis kecil untuk membuktikan jalur OTA lewat app berfungsi (tes pipeline setelah perbaikan verifikasi Ed25519). Tidak ada perubahan fungsi."
 }
