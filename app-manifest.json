@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.12",
+  "latest_version": "0.9.13",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Perbaikan noise 'riak air' di HP dengan noise sisa: pintu bising sekarang memakai deteksi suara manusia dari AI denoiser (bukan lagi deteksi energi), jadi noise di antara kata-kata dipotong jauh lebih dalam. Penguat suara naik ke +18dB agar suara pelan / speaker yang jauh dari mic lebih terdengar, dan penahan angin tidak lagi mengurangi suara saat angin kencang terus-menerus. Update di KEDUA HP lalu matikan-nyalakan interkom."
+  "notes": "Perbaikan 'kata awal keras, kata akhir menghilang': volume sekarang turun cepat di awal kalimat (tidak lagi membawa penguatan dari kalimat sebelumnya), dan pintu bising diberi jeda 0.4 detik setelah suara terakhir sehingga suku kata pelan di akhir kalimat tidak terpotong. Update di KEDUA HP lalu matikan-nyalakan interkom."
 }
