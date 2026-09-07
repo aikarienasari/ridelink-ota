@@ -1,6 +1,6 @@
 {
-  "latest_version": "0.9.13",
+  "latest_version": "0.9.17",
   "url_arm64": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/arm64-v8a.apk",
   "url_armv7": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/app/armeabi-v7a.apk",
-  "notes": "Perbaikan 'kata awal keras, kata akhir menghilang': volume sekarang turun cepat di awal kalimat (tidak lagi membawa penguatan dari kalimat sebelumnya), dan pintu bising diberi jeda 0.4 detik setelah suara terakhir sehingga suku kata pelan di akhir kalimat tidak terpotong. Update di KEDUA HP lalu matikan-nyalakan interkom."
+  "notes": "Update besar 0.9.17: Mode Cloud Saja diperbaiki (menu tidak nyangkut lagi), telepon masuk tidak lagi membuat interkom bisu, server cloud terisi otomatis, plus peredam suara baru (opsional, di Akun) dan banyak perbaikan kestabilan. PENTING (sekali ini saja): karena peningkatan kunci keamanan aplikasi, HP yang sudah memakai versi lama harus UNINSTALL dulu aplikasi RideLink, lalu pasang versi baru ini. Kalau saat update muncul 'Aplikasi tidak terpasang', itu wajar: uninstall yang lama, lalu pasang lagi. Setelah langkah sekali ini, update berikutnya kembali normal (cukup tekan tombol update). Update di KEDUA HP lalu matikan-nyalakan interkom."
 }
