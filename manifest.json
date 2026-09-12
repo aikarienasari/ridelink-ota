@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.7",
+  "latest_version": "0.9.8",
   "min_supported": "0.9.5",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.7.bin",
-  "signature": "1888580f218ac758749b0a2c8d521c1d3bc715f7ad55668dd73abfd827fdd403ce1176e2e979fe90394500ea3ba3ccbc0a730e59b307ec6148b682706a76160b",
-  "size": 980656,
-  "sha256": "468e4a9563abd22d671c98a031a516cb2bd00c85ef8a06f12a6684e3580414ff",
-  "released_at": "2026-09-12T02:21:41+00:00",
-  "notes": "Kapasitas per dongle naik dari 4 menjadi 5 rider. Batas jumlah HP yang boleh menyambung ke WiFi dongle dinaikkan, begitu juga pembagian slot dan penyangga audio internal, semuanya diatur dari satu setelan supaya tidak ada bagian yang tertinggal. Format paket antar dongle tidak berubah, jadi dongle lama dan baru tetap bisa satu rombongan selama masa update: dongle yang belum diupdate tetap maksimal 4 rider, yang sudah diupdate bisa 5."
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.8.bin",
+  "signature": "d2c1f57cf2f20165d4c3b9720537ee27458577067ff17fed351d28af573ca7be27c3aafeb8f75a9b4f920a386ab79b3af9298a4e045f607669ca473adc167d0e",
+  "size": 987824,
+  "sha256": "de3e6a234bc1eda7c8e62ffe07e52a01c71eb35787f021f7aee42de719201dc8",
+  "released_at": "2026-09-12T06:48:02+00:00",
+  "notes": "PENTING: memperbaiki sambungan ANTAR DONGLE. Selama ini dua dongle tidak pernah bisa saling terhubung karena bug: nomor identitas dongle salah diambil dari alamat MAC, sehingga SEMUA dongle punya nomor yang sama persis. Akibatnya tiap dongle membuang paket dari dongle lain, mengira itu gemanya sendiri. Satu dongle dengan beberapa HP tetap normal, makanya bug ini lama tidak ketahuan. Setelah update INI DI SEMUA DONGLE, syarat menyambungkan antar dongle tinggal satu: Group ID kedua dongle harus SAMA. Sisanya otomatis. Versi ini juga menambahkan cara mematikan dongle (dongle tidak punya saklar): tombol Matikan Dongle di aplikasi menu Status, plus tidur otomatis setelah 15 menit tidak ada HP tersambung. Menyalakannya lagi: tekan tombol RST di dongle, atau cabut-colok daya. Sebagai pengaman dongle juga bangun sendiri setelah 12 jam. Dongle tidak akan tidur saat update firmware berjalan atau saat masih ada HP tersambung. Tombol Matikan Dongle butuh aplikasi 0.9.25."
 }
