@@ -1,11 +1,11 @@
 {
   "schema": 1,
-  "latest_version": "0.9.6",
+  "latest_version": "0.9.7",
   "min_supported": "0.9.5",
-  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.6.bin",
-  "signature": "2677085ccea37d5827fd6f60db8b40d26d061f087d69c7dfd331f8b28bb1215c9874742a7e65e7c9b39a00691af983c14f588d51fb0e1d0ec96f922ec2b0410d",
-  "size": 980368,
-  "sha256": "200c1e1e039c500d4e3939f5dd4b9e6f28fbab706b2a518792728f464b9d74a5",
-  "released_at": "2026-08-25T04:56:04+00:00",
-  "notes": "Rilis kecil untuk membuktikan jalur OTA lewat app berfungsi (tes pipeline setelah perbaikan verifikasi Ed25519). Tidak ada perubahan fungsi."
+  "url": "https://raw.githubusercontent.com/aikarienasari/ridelink-ota/main/firmware/0.9.7.bin",
+  "signature": "1888580f218ac758749b0a2c8d521c1d3bc715f7ad55668dd73abfd827fdd403ce1176e2e979fe90394500ea3ba3ccbc0a730e59b307ec6148b682706a76160b",
+  "size": 980656,
+  "sha256": "468e4a9563abd22d671c98a031a516cb2bd00c85ef8a06f12a6684e3580414ff",
+  "released_at": "2026-09-12T02:21:41+00:00",
+  "notes": "Kapasitas per dongle naik dari 4 menjadi 5 rider. Batas jumlah HP yang boleh menyambung ke WiFi dongle dinaikkan, begitu juga pembagian slot dan penyangga audio internal, semuanya diatur dari satu setelan supaya tidak ada bagian yang tertinggal. Format paket antar dongle tidak berubah, jadi dongle lama dan baru tetap bisa satu rombongan selama masa update: dongle yang belum diupdate tetap maksimal 4 rider, yang sudah diupdate bisa 5."
 }
